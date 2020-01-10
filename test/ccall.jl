@@ -982,7 +982,7 @@ end
 
 else
 
-@warn "cfunction: no support for closures on this platform"
+@test_broken "cfunction: no support for closures on this platform"
 
 end
 
